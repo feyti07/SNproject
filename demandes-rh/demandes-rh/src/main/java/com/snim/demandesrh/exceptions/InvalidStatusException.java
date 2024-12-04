@@ -1,0 +1,7 @@
+package com.snim.demandesrh.exceptions;
+
+public class InvalidStatusException extends RuntimeException {
+    public InvalidStatusException(String message) {
+        super(message);
+    }
+}
